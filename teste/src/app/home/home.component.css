@@ -1,0 +1,50 @@
+/* .navbar{
+    position: absolute;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.8);
+} */
+
+*{
+    box-sizing: border-box;
+}
+.main{
+
+    position: relative;
+    height: 100vh;
+}
+
+.main-over{
+    position: absolute;
+    left: 299px;
+    top: 195px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.main-cards{
+    position: absolute;
+    left: 3px;
+    top: 682px;
+    z-index: 2;
+
+}
+
+.img-bg-card img{
+    position: relative;
+}
+
+.img-print-over-card img{
+    position: absolute;
+    z-index: 1;
+}
+.footer{
+    padding-top: 120px ;
+    margin-top: 260px ;
+
+}
+
+.footer-image img{
+    width: 1082px;
+    height: 643.79px;
+}
+
