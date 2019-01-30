@@ -8,34 +8,39 @@
   <title>Document</title>
   </head>
 <body>
-  <h1>LOGIN WORKS</h1>
 
   <nav class="navbar navbar-light bg-light">
-    <a routerLink="" class="navbar-brand" >
-      <img src="assets/img-front-test/front-test-logo.png" width="30" height="30" alt="">
+    <a routerLink="/home" class="navbar-brand" >
+      <img src="assets/img-front-test/front-test-logo.png"  alt="">
     </a>
   </nav>
-      
-   <div><h2>Entrar</h2>
-    <form>
+
+  <div class="container">
+      <div class="login-form row">
+   <div class="login-form col-sm-4">
+     <h2>Entrar</h2>
+    <form >
       <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
+        
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+       
       </div>
       <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
+       
         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
       </div>
-      
-      <a routerLink="/home" class="btn btn-primary"  role="button">Entrar</a>
+      <a class="login-link-signup col-sm-6" routerLink="/signup">Esqueceu a conta?</a>
+      <a routerLink="/home" class="btn btn-primary login-btn col-sm-12"  role="button">Entrar</a>
       </form>
   
-    <a  routerLink="/signup">Não tem conta? Cadastre-se</a></div>
-  
+    <a class="login-link-signup col-sm-6" routerLink="/signup">Não tem conta? Cadastre-se</a>
+  </div>
+  </div>
+
   <footer>
-    <div><img src="assets/img-front-test/bg-front-bottom.png"  alt=""></div>
+    <div class="footer-img"><img src="assets/img-front-test/bg-front-bottom.png"  alt=""></div>
   </footer>
+</div>
 
 </body>
 </html>

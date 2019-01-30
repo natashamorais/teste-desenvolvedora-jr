@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.container{
+    margin-top: 119px;
+}
+.login-form{
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.login-form h2{
+    font-family: 'Open Sans', sans-serif;
+letter-spacing: 1;
+font-weight: bold;
+color: #585859;
+font-size: 29px;
+
+}
+
+.login-btn{
+    border-radius: 28px;
+    margin: 0 auto;
+    background-color: #7626ff;
+    color:#ffff;
+    padding:15px;
+}
+.login-link-signup{
+    margin: 0 auto;
+}
+
+.footer-img{
+    margin: 0 auto;
+}
+
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Mukta', sans-serif; */

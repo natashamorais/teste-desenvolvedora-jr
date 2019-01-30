@@ -1,124 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
 
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
 </head>
+
 <body>
-  <h1>SIGNUP WORKS</h1>
-  <nav class="navbar navbar-light bg-light">
-    <a routerLink="" class="navbar-brand" >
-      <img src="assets/img-front-test/front-test-logo.png" width="30" height="30" alt="">
+  <div class="signup">
+  
+   <nav class="navbar navbar-light bg-light">
+    <a routerLink="" class="navbar-brand">
+      <img src="assets/img-front-test/front-test-logo.png" alt="">
     </a>
   </nav>
   <h1> Cadastrar</h1>
-<div> <h2>Informações Pessoais</h2> 
-   <form>
-    <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="inputEmail4">Email</label>
-        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-      </div>
-      <div class="form-group col-md-6">
-        <label for="inputPassword4">Password</label>
-        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-      </div>
-    </div>
-    <div class="form-group">
-      <label for="inputAddress">Address</label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-    </div>
-    <div class="form-group">
-      <label for="inputAddress2">Address 2</label>
-      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-    </div>
-    <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="inputCity">City</label>
-        <input type="text" class="form-control" id="inputCity">
-      </div>
-      <div class="form-group col-md-4">
-        <label for="inputState">State</label>
-        <select id="inputState" class="form-control">
-          <option selected>Choose...</option>
-          <option>...</option>
-        </select>
-      </div>
-      <div class="form-group col-md-2">
-        <label for="inputZip">Zip</label>
-        <input type="text" class="form-control" id="inputZip">
-      </div>
-    </div>
-    <div class="form-group">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck">
-        <label class="form-check-label" for="gridCheck">
-          Check me out
-        </label>
-      </div>
-    </div>
-    <button type="submit" class="btn btn-primary">Sign in</button>
-  </form>
-</div>
- 
-<div>  <h2>
-  Endereço
-</h2>
-<form>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-    </div>
-    <div class="form-group col-md-6">
-      <label for="inputPassword4">Password</label>
-      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="inputAddress">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-  </div>
-  <div class="form-group">
-    <label for="inputAddress2">Address 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-  </div>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputCity">City</label>
-      <input type="text" class="form-control" id="inputCity">
-    </div>
-    <div class="form-group col-md-4">
-      <label for="inputState">State</label>
-      <select id="inputState" class="form-control">
-        <option selected>Choose...</option>
-        <option>...</option>
-      </select>
-    </div>
-    <div class="form-group col-md-2">
-      <label for="inputZip">Zip</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Check me out
-      </label>
-    </div>
-  </div>
+  <div class="signup-form form-row">
+     
+      <div class="signup-form-personal-info col-sm-6">
+        <h2>Informações Pessoais</h2>
+        <form>
+           <div class="form-row">
+              <div class="col-sm-10">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+             <div class="col-sm-4">
+               <input type="text" class="form-control" placeholder="First name">
+             </div>
+             <div class="col-sm-6">
+               <input type="text" class="form-control" placeholder="Last name">
+             </div>
+             <div class="col-sm-10">
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col-sm-10">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+           </div>
+         </form></div> 
+    
+         <div class="signup-form-adress col"> 
+           <h2> Endereço </h2>
+           <form >
+              <div class="form-row">
+                <div class="col-sm-3">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" placeholder="Last name">
+                </div>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" placeholder="First name">
+                  </div>
+                  <div class="col-sm-7">
+                    <input type="text" class="form-control" placeholder="Last name">
+                  </div>
+              </div>
+            </form>
+         </div>
+        </div>
 
-    <a routerLink="/home" class="btn btn-primary"  role="button">Cadastrar</a>
-  </form>
-  <a  routerLink="/signup">Já tem conta? Faça login</a></div>
+        <div class="signup-links">
+            <a routerLink="/home" class="btn btn-primary signup-btn col-sm-4"  role="button">Cadastrar</a>
+          
+      
+        <a class="signup-link-login col-sm-2" routerLink="">Já é cadastrada? Faça seu login!</a>
+        </div>
+
+
+                  
+        <footer>
+          
+            <img src= "assets/img-front-test/bg-front-bottom.png">
+        
+        </footer>
+      </div>
   
-  <footer>
-    <div><img src="assets/img-front-test/bg-front-bottom.png"  alt=""></div>
-  </footer>
 </body>
-</html> 
+
+</html>
