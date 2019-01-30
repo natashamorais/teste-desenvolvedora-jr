@@ -6,11 +6,13 @@
 
 *{
     box-sizing: border-box;
+   
 }
 .main{
 
     position: relative;
     height: 100vh;
+    display:flex;
 }
 
 .main-over{
@@ -19,6 +21,10 @@
     top: 195px;
     padding: 10px;
     z-index: 1;
+}
+.main-btn{
+   border: #ffff 2px;
+    
 }
 
 .main-cards{

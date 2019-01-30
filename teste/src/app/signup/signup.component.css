@@ -1,34 +1,71 @@
 *{
     box-sizing: border-box;
-    height: 100%;
-    position:relative;
     
 }
-.signup{
-    min-height: 100vh;
+.signup-navbar{
+    width: 100%;
+}
+.container{
+    margin-left: 350px;
+}
+.container h1{
+    font-size: 29px;
+    color: #585859;
+    font-weight: bold;
+    font-family: 'Mukta', sans-serif;
 }
 
-.signup-form{
-    margin: 0 auto;
+.signup-form-personal-info h2{
+    font-size: 16px;
+    color: #585859;
+    font-weight: bold;
+    font-family: 'Mukta', sans-serif;
 }
+
+.signup-form-adress h2{
+   font-size: 16px;
+   color: #585859;
+   font-weight: bold;
+   font-family: 'Mukta', sans-serif;
+
+}
+
+.signup-name{
+    font-size: 16px;
+    color: #CAD0DC;
+}
+
 .signup-links{
     display:flex;
-flex-direction: column;
+    flex-direction: column;
+    margin-left: 136px;
+    align-content: center; 
 
-}
+} 
 
 .signup-btn{
-    margin:0 auto;
+   
+    border-radius: 28px;
+    background-color:#7626FF;
+    color: #fff;
+    font-weight: bold;
+    padding: 18px;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    width:361.92px;
+    height: 60px;
+    
 }
 .signup-link-login{
-    margin: 0 auto;
+    color: #0077C5;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    flex-direction: column;
+    width:361.92px;
+    height: 60px;
 }
 
-.footer{
-    display:flex;
-}
-footer img{
-    justify-content: flex-start;
-}
+.footer img{
+width: 100%;
 
-
+}

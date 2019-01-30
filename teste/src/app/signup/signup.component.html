@@ -12,75 +12,80 @@
 </head>
 
 <body>
-  <div class="signup">
-  
-   <nav class="navbar navbar-light bg-light">
+
+
+
+  <nav class="navbar navbar-light bg-light signup-navbar">
     <a routerLink="" class="navbar-brand">
       <img src="assets/img-front-test/front-test-logo.png" alt="">
     </a>
   </nav>
-  <h1> Cadastrar</h1>
-  <div class="signup-form form-row">
-     
-      <div class="signup-form-personal-info col-sm-6">
+  <div class="container">
+    <h1 class="m-5"> Cadastrar</h1>
+    <div class="signup-form form-row">
+
+      <div class="signup-form-personal-info col-sm-5 mx-0 px-0">
         <h2>Informações Pessoais</h2>
         <form>
-           <div class="form-row">
-              <div class="col-sm-10">
-                  <input type="text" class="form-control" placeholder="First name">
-                </div>
-             <div class="col-sm-4">
-               <input type="text" class="form-control" placeholder="First name">
-             </div>
-             <div class="col-sm-6">
-               <input type="text" class="form-control" placeholder="Last name">
-             </div>
-             <div class="col-sm-10">
-                <input type="text" class="form-control" placeholder="First name">
-              </div>
-              <div class="col-sm-10">
-                  <input type="text" class="form-control" placeholder="First name">
-                </div>
-           </div>
-         </form></div> 
-    
-         <div class="signup-form-adress col"> 
-           <h2> Endereço </h2>
-           <form >
-              <div class="form-row">
-                <div class="col-sm-3">
-                  <input type="text" class="form-control" placeholder="First name">
-                </div>
-                <div class="col-sm-7">
-                  <input type="text" class="form-control" placeholder="Last name">
-                </div>
-                <div class="col-sm-3">
-                    <input type="text" class="form-control" placeholder="First name">
-                  </div>
-                  <div class="col-sm-7">
-                    <input type="text" class="form-control" placeholder="Last name">
-                  </div>
-              </div>
-            </form>
-         </div>
-        </div>
-
-        <div class="signup-links">
-            <a routerLink="/home" class="btn btn-primary signup-btn col-sm-4"  role="button">Cadastrar</a>
-          
-      
-        <a class="signup-link-login col-sm-2" routerLink="">Já é cadastrada? Faça seu login!</a>
-        </div>
-
-
-                  
-        <footer>
-          
-            <img src= "assets/img-front-test/bg-front-bottom.png">
-        
-        </footer>
+          <div class="form-row">
+            <div class="col-sm-10 my-1">
+              <input type="text" class="form-control signup-name" placeholder="Nome/Razão Social">
+            </div>
+            <div class="col-sm-4 my-1">
+              <input type="number" class="form-control signup-cpf" placeholder="CPF">
+            </div>
+            <div class="col-sm-6 my-1">
+              <input type="number" class="form-control signup-tel" placeholder="Telefone">
+            </div>
+            <div class="col-sm-10 my-1">
+              <input type="email" class="form-control" placeholder="E-mail">
+            </div>
+            <div class="col-sm-10 my-1">
+              <input type="password" class="form-control" placeholder="Senha">
+            </div>
+          </div>
+        </form>
       </div>
-  
+
+      <div class="signup-form-adress col-sm-5 mx-auto">
+        <h2> Endereço </h2>
+        <form>
+          <div class="form-row">
+            <div class="col-sm-4">
+
+              <input type="number" class="form-control signup-zip"  placeholder="CEP" required>
+            </div>
+            <div class="col-sm-6">
+              <input type="text" class="form-control signup-st" placeholder="Logradouro">
+            </div>
+            <div class="col-sm-4">
+
+              <input type="number" class="form-control signup-number" placeholder="Número" required>
+            </div>
+            <div class="col-sm-6 ">
+              <input type="text" class="form-control signup-hood" placeholder="Bairro">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="signup-links">
+      <a routerLink="/home" class="btn btn-primary signup-btn my-5" role="button">Cadastrar</a>
+
+
+      <a class="signup-link-login " routerLink="">Já tem uma conta?Faça login!</a>
+    </div>
+
+  </div>
+
+  <footer>
+
+    <img src="assets/img-front-test/bg-front-bottom.png">
+
+  </footer>
+
+
 </body>
 
 </html>

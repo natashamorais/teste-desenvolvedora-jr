@@ -4,15 +4,18 @@
 }
 
 .container{
-    margin-top: 119px;
+    margin-top: 90px;
+  
 }
 .login-form{
     margin: 0 auto;
     margin-bottom: 100px;
+    ::-webkit-input-placeholder  { color:#4C4; }
+input:-moz-placeholder { color:#4C4; }
 }
 
 .login-form h2{
-    font-family: 'Open Sans', sans-serif;
+ font-family: 'Open Sans', sans-serif;
 letter-spacing: 1;
 font-weight: bold;
 color: #585859;
@@ -20,15 +23,33 @@ font-size: 29px;
 
 }
 
+.login-link-password{
+    text-align: end;
+    text-transform: uppercase;
+    color:#585859;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Mukta', sans-serif;
+}
+
 .login-btn{
     border-radius: 28px;
     margin: 0 auto;
     background-color: #7626ff;
     color:#ffff;
-    padding:15px;
+    width:371px;
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Mukta', sans-serif;
+    
+
 }
 .login-link-signup{
     margin: 0 auto;
+    font-size: 16px;
+    color:#0077C5;
 }
 
 .footer-img{
