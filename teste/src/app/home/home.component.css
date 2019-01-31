@@ -1,13 +1,27 @@
-/* .navbar{
-    position: absolute;
-    z-index: 1;
-    background: rgba(255, 255, 255, 0.8);
-} */
+
 
 *{
     box-sizing: border-box;
    
 }
+
+.home-navbar{
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0,0,0);
+    display:flex;
+}
+
+.nav-button-home{
+    align-content: flex-end;
+    
+}
+.home-navbar-btn{
+    border: #ffff 2px;
+    text-align: center;
+    border-radius: 28px;
+}
+
 .main{
 
     position: relative;
@@ -22,9 +36,21 @@
     padding: 10px;
     z-index: 1;
 }
+
+.main-text{
+ color:#ffff;
+ font-size: 20px;
+ font-weight: bold;
+ font-family:'Mukta', sans-serif;   
+ text-align: center;
+
+}
+
 .main-btn{
    border: #ffff 2px;
-    
+   border-radius: 28px;
+
+
 }
 
 .main-cards{

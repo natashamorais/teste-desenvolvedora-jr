@@ -3,6 +3,13 @@
     
 }
 
+input::placeholder {
+    font-size: 13px;
+    color:#CAD0DC;
+    font-family: 'Mukta', sans-serif;
+    
+}
+
 .container{
  display: flex;
  flex-direction: column;
@@ -11,6 +18,7 @@
  width: 873px;;
  margin-bottom: 30px;
 }
+
 .container h1{
     font-size: 29px;
     color: #585859;
@@ -18,20 +26,21 @@
     font-family: 'Mukta', sans-serif;
     align-self: flex-start;
 }
+
 .signup-form{
     width: 758px;
-   padding: 0px;
-    margin:0px;
+   
 }
+
 .signup-form-personal-info {
     height: 200px;
-    margin: 0;
-    padding: 0 px;
+  margin-right: 0px;
+  width: 300px;
 }
+
 .signup-form-adress{
     height: 200px;
-    margin: 0px;
-    padding: 0px;
+    
 }
 
 .signup-form-personal-info h2{
@@ -72,9 +81,8 @@
     height: 60px;
     margin: 0px;
     
-
-    
 }
+
 .signup-link-login{
     color: #0077C5;
     text-align: center;
@@ -83,7 +91,12 @@
     width:361.92px;
     height: 60px;
 }
+
 .footer{
     display:flex;
     justify-content: center;
+}
+
+.footer-signup-img{
+    margin-left: 187px;
 }

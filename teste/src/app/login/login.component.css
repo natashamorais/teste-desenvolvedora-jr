@@ -3,6 +3,13 @@
     
 }
 
+input::placeholder {
+    font-size: 13px;
+    color:#CAD0DC;
+    font-family: 'Mukta', sans-serif;
+    
+}
+
 .container{
     margin-top: 100px;
   
