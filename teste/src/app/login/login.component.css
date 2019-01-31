@@ -4,14 +4,16 @@
 }
 
 .container{
-    margin-top: 90px;
+    margin-top: 100px;
   
 }
 .login-form{
+    
     margin: 0 auto;
-    margin-bottom: 100px;
-    ::-webkit-input-placeholder  { color:#4C4; }
-input:-moz-placeholder { color:#4C4; }
+    margin-bottom: 95px;
+    display: flex;
+    flex-direction: column;
+ 
 }
 
 .login-form h2{
@@ -20,29 +22,31 @@ letter-spacing: 1;
 font-weight: bold;
 color: #585859;
 font-size: 29px;
-
+align-self:flex-start; 
 }
 
 .login-link-password{
-    text-align: end;
+   
     text-transform: uppercase;
     color:#585859;
     font-size: 12px;
     font-weight: bold;
     font-family: 'Mukta', sans-serif;
+   margin-left: 220px;
+   
 }
 
 .login-btn{
     border-radius: 28px;
-    margin: 0 auto;
     background-color: #7626ff;
     color:#ffff;
-    width:371px;
+    width:360px;
     height: 60px;
     text-align: center;
     font-size: 18px;
     font-weight: bold;
     font-family: 'Mukta', sans-serif;
+    padding: 18px;
     
 
 }
@@ -50,6 +54,7 @@ font-size: 29px;
     margin: 0 auto;
     font-size: 16px;
     color:#0077C5;
+    justify-content: center;
 }
 
 .footer-img{

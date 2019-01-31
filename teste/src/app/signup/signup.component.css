@@ -2,17 +2,36 @@
     box-sizing: border-box;
     
 }
-.signup-navbar{
-    width: 100%;
-}
+
 .container{
-    margin-left: 350px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 873px;;
+ margin-bottom: 30px;
 }
 .container h1{
     font-size: 29px;
     color: #585859;
     font-weight: bold;
     font-family: 'Mukta', sans-serif;
+    align-self: flex-start;
+}
+.signup-form{
+    width: 758px;
+   padding: 0px;
+    margin:0px;
+}
+.signup-form-personal-info {
+    height: 200px;
+    margin: 0;
+    padding: 0 px;
+}
+.signup-form-adress{
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .signup-form-personal-info h2{
@@ -30,16 +49,13 @@
 
 }
 
-.signup-name{
-    font-size: 16px;
-    color: #CAD0DC;
-}
-
 .signup-links{
     display:flex;
     flex-direction: column;
     margin-left: 136px;
     align-content: center; 
+    justify-content: center;
+    margin-right: 100px;
 
 } 
 
@@ -54,6 +70,9 @@
     font-family: 'Mukta', sans-serif;
     width:361.92px;
     height: 60px;
+    margin: 0px;
+    
+
     
 }
 .signup-link-login{
@@ -64,8 +83,7 @@
     width:361.92px;
     height: 60px;
 }
-
-.footer img{
-width: 100%;
-
+.footer{
+    display:flex;
+    justify-content: center;
 }

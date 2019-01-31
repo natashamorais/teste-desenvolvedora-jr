@@ -10,7 +10,7 @@
 <body>
 
   <nav class="navbar navbar-light bg-light">
-    <a routerLink="/home" class="navbar-brand" >
+    <a class="navbar-brand" >
       <img src="assets/img-front-test/front-test-logo.png"  alt="">
     </a>
   </nav>
@@ -22,15 +22,15 @@
     <form >
       <div class="form-group">
         
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <input type="email" class="form-control no-gutters" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
        
       </div>
       <div class="form-group">
        
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        <input type="password" class="form-control " id="InputPassword1" placeholder="senha" required>
       </div>
       <a class="login-link-password ">Esqueceu a senha?</a>
-      <a routerLink="/home" class="btn btn-primary login-btn  my-3"  role="button">Entrar</a>
+      <a routerLink="/home" class="btn btn-primary login-btn my-3"  role="button">Entrar</a>
       </form>
   
     <a class="login-link-signup" routerLink="/signup">Não tem conta? Cadastre-se</a>
