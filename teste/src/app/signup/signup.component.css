@@ -9,14 +9,18 @@ input::placeholder {
     font-family: 'Mukta', sans-serif;
     
 }
+input{
+    border-radius: 6px;
+
+}
 
 .container{
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;
- width: 873px;;
- margin-bottom: 30px;
+ width: 758px;
+ margin-bottom: 95px;
 }
 
 .container h1{
@@ -25,11 +29,12 @@ input::placeholder {
     font-weight: bold;
     font-family: 'Mukta', sans-serif;
     align-self: flex-start;
+   
 }
 
 .signup-form{
     width: 758px;
-   
+  
 }
 
 .signup-form-personal-info {
@@ -79,7 +84,7 @@ input::placeholder {
     font-family: 'Mukta', sans-serif;
     width:361.92px;
     height: 60px;
-    margin: 0px;
+    
     
 }
 

@@ -10,6 +10,12 @@ input::placeholder {
     
 }
 
+input{
+    height: 42px;
+    width:371px;
+    border-radius: 6px;
+}
+
 .container{
     margin-top: 100px;
   
@@ -33,14 +39,20 @@ align-self:flex-start;
 }
 
 .login-link-password{
-   
-    text-transform: uppercase;
-    color:#585859;
-    font-size: 12px;
-    font-weight: bold;
-    font-family: 'Mukta', sans-serif;
-   margin-left: 220px;
-   
+
+   text-transform: uppercase;
+   color:#585859;
+   font-size: 12px;
+   letter-spacing: -1px;
+   font-weight: bold;
+   font-family: 'Mukta', sans-serif;
+
+   position: absolute;
+   top: 149px;
+   left: 275px;
+   width: 109px;
+   height: 20px;
+
 }
 
 .login-btn{
